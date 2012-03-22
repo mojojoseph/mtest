@@ -1,5 +1,6 @@
-PATH
-  remote: ~/projects/sandbox/mobileappmgr
+GIT
+  remote: git://github.com/mojojoseph/mobileappmgr
+  revision: 72a489aeb40b6f6c0a5582bcb62f4e95fb8ee0fa
   specs:
     mobileappmgr (0.0.1)
 

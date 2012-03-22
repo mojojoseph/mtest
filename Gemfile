@@ -2,8 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
 
-#gem 'mobileappmgr', :git => 'git://github.com/mojojoseph/mobileappmgr'
-gem 'mobileappmgr', :path => "~/projects/sandbox/mobileappmgr"
+gem 'mobileappmgr', :git => 'git://github.com/mojojoseph/mobileappmgr'
+#gem 'mobileappmgr', :path => "~/projects/sandbox/mobileappmgr"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
