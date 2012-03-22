@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/mojojoseph/mobileappmgr
-  revision: 72a489aeb40b6f6c0a5582bcb62f4e95fb8ee0fa
+  revision: 1cfa370535e9f11d8504c4f93de40bb0a6f5f6a8
   specs:
     mobileappmgr (0.0.1)
 
