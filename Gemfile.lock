@@ -1,9 +1,7 @@
-GIT
-  remote: git://github.com/mojojoseph/mobile_app_manager
-  revision: b3ec748f16d1b36d224daaca116dae4cff504a2c
+PATH
+  remote: ~/projects/sandbox/mobileappmgr
   specs:
-    mobile_app_manager (0.0.3)
-      rails (~> 3.0.9)
+    mobileappmgr (0.0.1)
 
 GEM
   remote: http://rubygems.org/
@@ -96,6 +94,6 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
-  mobile_app_manager!
+  mobileappmgr!
   rails (= 3.0.9)
   sqlite3

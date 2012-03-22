@@ -17,10 +17,10 @@ set :rvm_type, :user
 require "bundler/capistrano"
 
 # Configuration
-set :application, "mamtest"                              # Application Name
+set :application, "mtest"                              # Application Name
 set :scm, :git
 set :git_enable_submodules, 1
-set :repository, "git@github.com:mojojoseph/mamtest"
+set :repository, "git@github.com:mojojoseph/mtest"
 set :branch, "master"
 set :ssh_options, { :forward_agent => true }
 set :runner, "deploy"
@@ -71,17 +71,4 @@ namespace :deploy do
   task :restart, :roles => :app do
     run "touch #{current_release}/tmp/restart.txt"
   end
-
-  task :publish_ipa, :roles => :app do
-    puts "Publish"
-  end
 end
-
-namespace :rake do 
-  desc "Run a task on a remote server"
-  task :invoke do 
-    run ("cd #{current_release} && RAILS_ENV=#{rails_env} rake ios:insert_record")
-  end
-end
-
-require 'mobile_app_manager/recipes'
